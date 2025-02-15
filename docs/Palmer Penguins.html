@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BaileyStender.github.io</title>
+<title>Excercise 5 – BaileyStender.github.io</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -67,6 +33,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -104,7 +71,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -122,7 +89,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -148,31 +115,95 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#attach-the-palmerspenguins-package" id="toc-attach-the-palmerspenguins-package" class="nav-link active" data-scroll-target="#attach-the-palmerspenguins-package">Attach the <code>palmerspenguins</code> package</a></li>
+  <li><a href="#examin-e-at-the-dataset-using-the-help-page" id="toc-examin-e-at-the-dataset-using-the-help-page" class="nav-link" data-scroll-target="#examin-e-at-the-dataset-using-the-help-page">1. Examin e at the dataset using the ?Help page</a></li>
+  <li><a href="#what-is-the-class-of-the-penguins-dataset" id="toc-what-is-the-class-of-the-penguins-dataset" class="nav-link" data-scroll-target="#what-is-the-class-of-the-penguins-dataset">2. what is the class of the penguins dataset?</a></li>
+  <li><a href="#what-is-the-structure-of-the-penguins-dataset" id="toc-what-is-the-structure-of-the-penguins-dataset" class="nav-link" data-scroll-target="#what-is-the-structure-of-the-penguins-dataset">3. what is the structure of the penguins dataset?</a></li>
+  <li><a href="#what-are-the-dimensions-of-the-penguins-dataset" id="toc-what-are-the-dimensions-of-the-penguins-dataset" class="nav-link" data-scroll-target="#what-are-the-dimensions-of-the-penguins-dataset">4. what are the dimensions of the penguins dataset?</a></li>
+  <li><a href="#what-are-the-column-names-of-the-penguins-dataset" id="toc-what-are-the-column-names-of-the-penguins-dataset" class="nav-link" data-scroll-target="#what-are-the-column-names-of-the-penguins-dataset">5. what are the column names of the penguins dataset?</a></li>
+  <li><a href="#what-type-of-data-is-flipper_length_mm-and-island" id="toc-what-type-of-data-is-flipper_length_mm-and-island" class="nav-link" data-scroll-target="#what-type-of-data-is-flipper_length_mm-and-island">6. what type of data is <code>flipper_length_mm</code> and <code>Island</code>?</a></li>
+  <li><a href="#what-is-the-mean-flipper-length-of-the-penguins" id="toc-what-is-the-mean-flipper-length-of-the-penguins" class="nav-link" data-scroll-target="#what-is-the-mean-flipper-length-of-the-penguins">7. what is the mean flipper length of the penguins?</a></li>
+  <li><a href="#what-is-the-standard-deviation-of-flipper-length-in-the-penguins" id="toc-what-is-the-standard-deviation-of-flipper-length-in-the-penguins" class="nav-link" data-scroll-target="#what-is-the-standard-deviation-of-flipper-length-in-the-penguins">8. what is the standard deviation of flipper length in the penguins?</a></li>
+  <li><a href="#what-is-the-median-body-mass-of-the-penguins" id="toc-what-is-the-median-body-mass-of-the-penguins" class="nav-link" data-scroll-target="#what-is-the-median-body-mass-of-the-penguins">9. what is the median body mass of the penguins?</a></li>
+  <li><a href="#what-is-the-island-of-the-100th-penguin" id="toc-what-is-the-island-of-the-100th-penguin" class="nav-link" data-scroll-target="#what-is-the-island-of-the-100th-penguin">10. what is the Island of the 100th penguin?</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="C:\ESS330\BaileyStender.github.io\IMG_5779" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">BaileyStender.github.io</h1>
+<h1 class="title">Excercise 5</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><main class="content" id="quarto-document-content">
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+  
 
 
-</main>  
-</div>
- <!-- /main -->
+</header>
+
+
+<section id="attach-the-palmerspenguins-package" class="level1">
+<h1>Attach the <code>palmerspenguins</code> package</h1>
+</section>
+<section id="examin-e-at-the-dataset-using-the-help-page" class="level1">
+<h1>1. Examin e at the dataset using the ?Help page</h1>
+</section>
+<section id="what-is-the-class-of-the-penguins-dataset" class="level1">
+<h1>2. what is the class of the penguins dataset?</h1>
+<pre><code>[1] "tbl_df"     "tbl"        "data.frame"
+#it is a tibble</code></pre>
+</section>
+<section id="what-is-the-structure-of-the-penguins-dataset" class="level1">
+<h1>3. what is the structure of the penguins dataset?</h1>
+<pre><code>tibble [344 × 8] (S3: tbl_df/tbl/data.frame)  $ species          : Factor w/ 3 levels "Adelie","Chinstrap",..: 1 1 1 1 1 1 1 1 1 1 ...  $ island           : Factor w/ 3 levels "Biscoe","Dream",..: 3 3 3 3 3 3 3 3 3 3 ...  $ bill_length_mm   : num [1:344] 39.1 39.5 40.3 NA 36.7 39.3 38.9 39.2 34.1 42 ...  $ bill_depth_mm    : num [1:344] 18.7 17.4 18 NA 19.3 20.6 17.8 19.6 18.1 20.2 ...  $ flipper_length_mm: int [1:344] 181 186 195 NA 193 190 181 195 193 190 ...  $ body_mass_g      : int [1:344] 3750 3800 3250 NA 3450 3650 3625 4675 3475 4250 ...  $ sex              : Factor w/ 2 levels "female","male": 2 1 1 NA 1 2 1 2 NA NA ...  $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ...</code></pre>
+</section>
+<section id="what-are-the-dimensions-of-the-penguins-dataset" class="level1">
+<h1>4. what are the dimensions of the penguins dataset?</h1>
+<pre><code>[1] 344   8</code></pre>
+</section>
+<section id="what-are-the-column-names-of-the-penguins-dataset" class="level1">
+<h1>5. what are the column names of the penguins dataset?</h1>
+<p>species, island, bill length mm, flipper length mm, body mass g, sex, year</p>
+</section>
+<section id="what-type-of-data-is-flipper_length_mm-and-island" class="level1">
+<h1>6. what type of data is <code>flipper_length_mm</code> and <code>Island</code>?</h1>
+<p>flipper_length_mm: interger</p>
+<p>island: factor</p>
+</section>
+<section id="what-is-the-mean-flipper-length-of-the-penguins" class="level1">
+<h1>7. what is the mean flipper length of the penguins?</h1>
+<pre><code> 200.9152</code></pre>
+</section>
+<section id="what-is-the-standard-deviation-of-flipper-length-in-the-penguins" class="level1">
+<h1>8. what is the standard deviation of flipper length in the penguins?</h1>
+<pre><code>14.06171</code></pre>
+</section>
+<section id="what-is-the-median-body-mass-of-the-penguins" class="level1">
+<h1>9. what is the median body mass of the penguins?</h1>
+<pre><code>4050</code></pre>
+</section>
+<section id="what-is-the-island-of-the-100th-penguin" class="level1">
+<h1>10. what is the Island of the 100th penguin?</h1>
+<p>Dream, Biscoe dream torgersen</p>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -193,6 +224,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

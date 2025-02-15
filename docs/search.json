@@ -7,10 +7,17 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "Palmer Penguins.html",
+    "href": "Palmer Penguins.html",
+    "title": "Excercise 5",
+    "section": "",
+    "text": "Attach the palmerspenguins package\n\n\n1. Examin e at the dataset using the ?Help page\n\n\n2. what is the class of the penguins dataset?\n[1] \"tbl_df\"     \"tbl\"        \"data.frame\"\n#it is a tibble\n\n\n3. what is the structure of the penguins dataset?\ntibble [344 × 8] (S3: tbl_df/tbl/data.frame)  $ species          : Factor w/ 3 levels \"Adelie\",\"Chinstrap\",..: 1 1 1 1 1 1 1 1 1 1 ...  $ island           : Factor w/ 3 levels \"Biscoe\",\"Dream\",..: 3 3 3 3 3 3 3 3 3 3 ...  $ bill_length_mm   : num [1:344] 39.1 39.5 40.3 NA 36.7 39.3 38.9 39.2 34.1 42 ...  $ bill_depth_mm    : num [1:344] 18.7 17.4 18 NA 19.3 20.6 17.8 19.6 18.1 20.2 ...  $ flipper_length_mm: int [1:344] 181 186 195 NA 193 190 181 195 193 190 ...  $ body_mass_g      : int [1:344] 3750 3800 3250 NA 3450 3650 3625 4675 3475 4250 ...  $ sex              : Factor w/ 2 levels \"female\",\"male\": 2 1 1 NA 1 2 1 2 NA NA ...  $ year             : int [1:344] 2007 2007 2007 2007 2007 2007 2007 2007 2007 2007 ...\n\n\n4. what are the dimensions of the penguins dataset?\n[1] 344   8\n\n\n5. what are the column names of the penguins dataset?\nspecies, island, bill length mm, flipper length mm, body mass g, sex, year\n\n\n6. what type of data is flipper_length_mm and Island?\nflipper_length_mm: interger\nisland: factor\n\n\n7. what is the mean flipper length of the penguins?\n 200.9152\n\n\n8. what is the standard deviation of flipper length in the penguins?\n14.06171\n\n\n9. what is the median body mass of the penguins?\n4050\n\n\n10. what is the Island of the 100th penguin?\nDream, Biscoe dream torgersen"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site\n\n\n\nAn image of me holding a horned lizard"
   }
 ]

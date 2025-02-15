@@ -1,5 +1,7 @@
 ---
 title: "BaileyStender.github.io"
+image: "C:\\ESS330\\BaileyStender.github.io\\IMG_5779"
+about: "jolla"
 ---
 
 This is a Quarto website.
