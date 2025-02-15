@@ -1,3 +1,11 @@
 ---
 title: "Projects"
 ---
+
+In the spring of 2025 I took a Quantitative Reasoning Class based in R. Here is a collection to the links of some of the projects I created throughout the semester.
+
+<https://baileystender.github.io/>
+
+-In this assignment I built a website the features my professional profile
+
+-It includes a github repo for access to all the code
