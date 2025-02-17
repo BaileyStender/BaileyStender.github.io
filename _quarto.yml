@@ -14,7 +14,7 @@ website:
         text: Resume
       - href: Projects.qmd
         text: Projects
-     right:
+    right:
       - href: https://github.com/BaileyStender
         text: GitHub
   
