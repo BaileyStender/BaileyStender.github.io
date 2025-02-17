@@ -1,9 +1,16 @@
 ---
-title: "BaileyStender.github.io"
-image: "C:\\ESS330\\BaileyStender.github.io\\IMG_5779"
-about: "jolla"
+title: Bailey Stender
+image: IMG_5779.jpg
+about:
+  template: jolla
+  image-width: 10em
+  image-shape: round
 ---
 
 ```{r}
 
 ```
+
+About Me:
+
+-My name is Bailey Stender and I am a third-year undergraduate student at CSU. I am majoring in Ecosystem Science and Sustainability and minoring in Conservation Biology and Watershed Science. I hope to pursue a career in working in the field after graduating and want to work in conservation, ecology, or natural resources. My interests outside of my studies are rock climbing, camping, hiking, reading, and crafting.
