@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "BaileyStender.github.io",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
-  },
-  {
     "objectID": "Palmer Penguins.html",
     "href": "Palmer Penguins.html",
     "title": "Excercise 5",
@@ -19,5 +12,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n\n\nAn image of me holding a horned lizard"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "BaileyStender.github.io",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Projects.html",
+    "href": "Projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "In the spring of 2025 I took a Quantitative Reasoning Class based in R. Here is a collection to the links of some of the projects I created throughout the semester.\nhttps://baileystender.github.io/\n-In this assignment I built a website the features my professional profile\n-It includes a github repo for access to all the code"
   }
 ]
