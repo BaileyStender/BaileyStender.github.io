@@ -10,5 +10,3 @@ title: "Resume"
 </object>
 
 ```
-
-![](images/Bailey Stender Resume_ 2_15_25 (2)-06.pdf)

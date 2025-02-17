@@ -1,20 +1,18 @@
 ---
-title: Bailey Stender
+title: About Me
 image: IMG_5779.jpg
 about:
   template: jolla
-  image-width: 10em
   image-shape: round
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/bailey-stender-688155256/
+    - text: Email
+      href: mailto:bstender100@gmail.com
 ---
 
 ```{r}
 
 ```
 
-About Me:
-
--My name is Bailey Stender and I am a third-year undergraduate student at CSU. I am majoring in Ecosystem Science and Sustainability and minoring in Conservation Biology and Watershed Science. I hope to pursue a career in working in the field after graduating and want to work in conservation, ecology, or natural resources. My interests outside of my studies are rock climbing, camping, hiking, reading, and crafting.
-
-[GitHub Link](https://github.com/BaileyStender)
-
-[Linkedin Link](https://www.linkedin.com/in/bailey-stender-688155256/)
+Hello! My name is Bailey Stender and I’m a senior majoring in Ecosystem Science and Sustainability and minoring in Watershed Science and Conservation Biology. Last summer I was a part of the CNHP Siegele Conservation Internship and worked in the field on several different projects. I am interested in conservation and ecology-based work and am eager to gain more experience working in the field and conducting research. In my free time, I enjoy rock climbing, hiking, camping, journaling, and crafting. I currently work at the CSU Rec as a climbing wall assistant.
