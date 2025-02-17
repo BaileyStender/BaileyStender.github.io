@@ -2,4 +2,8 @@
 title: "Resume"
 ---
 
-![](images/Bailey Stender Resume_ 2_15_25.pdf)
+```{r}
+
+```
+
+![](images/Bailey Stender Resume_ 2_15_25-02.pdf)
