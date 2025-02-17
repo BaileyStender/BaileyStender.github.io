@@ -19,8 +19,8 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: styles.scss
+    mainfont: Nunito
     toc: true
 
 editor: visual
