@@ -4,10 +4,6 @@ image: "C:\\ESS330\\BaileyStender.github.io\\IMG_5779"
 about: "jolla"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
 ```{r}
-1 + 1
+
 ```
