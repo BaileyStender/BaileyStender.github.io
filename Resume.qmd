@@ -2,7 +2,12 @@
 title: "Resume"
 ---
 
-```{r}
+```{=html}
+<object data="Resume2.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No worries... you can <a href="Resume2.pdf">click here to
+    download the PDF file.</a></p>
+</object>
 
 ```
 

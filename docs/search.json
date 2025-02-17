@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "Resume.html",
+    "href": "Resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "It appears you don't have a PDF plugin for this browser.\n    No worries... you can click here to\n    download the PDF file."
+  },
+  {
     "objectID": "Palmer Penguins.html",
     "href": "Palmer Penguins.html",
     "title": "Excercise 5",
@@ -26,12 +33,5 @@
     "title": "Projects",
     "section": "",
     "text": "In the spring of 2025 I took a Quantitative Reasoning Class based in R. Here is a collection to the links of some of the projects I created throughout the semester.\nhttps://baileystender.github.io/\n-In this assignment I built a website the features my professional profile\n-It includes a github repo for access to all the code"
-  },
-  {
-    "objectID": "Resume.html",
-    "href": "Resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "GitHub Link\nLinkedin Link"
   }
 ]
