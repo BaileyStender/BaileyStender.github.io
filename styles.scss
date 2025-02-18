@@ -1,36 +1,16 @@
 /*-- scss:defaults --*/
+// Colors
+$light-green: #D1D9CE;
+$green: #528F42;
+$blue-green: #428F7F;
+$gray: #64605f;
+$purple: #8F4278;
+$cream: #FDFBF7;
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-
-$darkblue: #053660;  // Dark blue for navbar
-$white: #ffffff;     // White text color
-$teal: #147C91;      // Teal color for hover effect
-$darkgray: #333333;  // Dark gray (optional)
-
-/*-- scss:rules --*/
-
-body {
-  font-family: 'Playfair Display', serif; 
-}
-
-nav {
-  background-color: $darkblue;   
-  color: $white;                
-  padding: 10px 20px;            
-}
-
-nav a {
-  color: $white;                
-  text-decoration: none;         
-  margin-right: 15px;            
-}
-
-nav a:hover {
-  color: $teal;                  
-  cursor: pointer;              
-}
-
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', serif;
-}
+// Base document colors
+$navbar-bg: $cream; // navbar
+$navbar-fg: $blue-green; // navbar foreground elements
+$navbar-hl: $purple; // highlight color when hovering over navbar links
+$body-bg: $light-green; // page background
+$body-color: $gray; // page text
+$link-color: $green; // hyperlinks
