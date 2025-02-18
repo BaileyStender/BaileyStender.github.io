@@ -8,5 +8,4 @@ title: "Resume"
     No worries... you can <a href="Resume2.pdf">click here to
     download the PDF file.</a></p>
 </object>
-
 ```
